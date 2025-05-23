@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #d28f9a;
+}
+
+.Layout {
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+
+
+
+}
+
+.Header {
+    width: 95%;
+    height: 70px;
+    background-color: rgb(66, 220, 220);
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+
+}
+
+.Both {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Aside {
+    height: 400px;
+    width: 39%;
+    background-color: rgb(21, 170, 170);
+    color: white;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Article {
+    /* height: 400px; */
+    width: 53%;
+    background-color: rgb(201, 68, 92);
+    display: flex;
+    gap:10px;
+    color:white;
+    font-size: 22px;
+    padding-right: 75px;
+    
+
+
+}
+
+.Image {
+    height: 150px;
+    width: 30%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 220px !important;
+    font-size: 22px;
+
+
+
+}
+
+.Footer {
+    height: 70px;
+    width: 95%;
+    background-color: rgb(66, 220, 220);
+    margin-left: 30px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+     margin-top: 50px !important;
+    margin-bottom: 50px;
+
+
+}
