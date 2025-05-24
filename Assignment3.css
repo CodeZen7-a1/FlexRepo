@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.FlexHeader{
+    background-color: rgb(103, 26, 162);
+    text-align: center;
+    padding: 20px 20px;
+   
+}
+.FlexContent{
+    display:flex;
+    gap:20px;
+   text-align: start;
+    line-height: 1.8;
+    margin: 15px 15px;
+}
+.content{
+    background-color: aqua;
+     padding-bottom: 50px;
+     padding-left: 10px;
+}
+.content h2{
+   margin: 10px 5px;
+}
+/* Responsive for mobile view */
+@media screen and (max-width:740px){
+
+.FlexContent{
+    flex-direction: column;
+    text-align: start;
+    margin: 15px 10px;
+}
+}
